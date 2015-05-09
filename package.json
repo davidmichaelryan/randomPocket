@@ -1,0 +1,28 @@
+{
+  "name": "randomPocket",
+  "version": "0.1.2",
+  "description": "Randomly picks a pocket article",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "body-parser": "~1.8.x", 
+    "express": "~4.9.x",
+    "hogan-express": "~0.5.x",
+    "morgan": "~1.3.x",
+    "request": "*",
+    "cookie-parser": "*",
+    "grunt": "~0.4.1",
+    "dotenv": "latest",
+    "grunt-contrib-coffee": "^0.12.0",
+    "grunt-contrib-imagemin": "^0.8.1",
+    "grunt-contrib-stylus": "^0.19.0",
+    "grunt-contrib-uglify": "^0.5.1",
+    "grunt-contrib-uglify": "latest"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "license": "MIT"
+}
